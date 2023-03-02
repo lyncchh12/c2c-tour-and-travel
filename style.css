@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(images/b.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.big {
+    font-size: 100px;
+}
+.navbar{
+    width:70%;
+    height: 10vh;
+    margin: auto;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed ;  
+   
+}
+
+
+.menu{
+    width: 100%;
+    height: 100%;
+    font-family: 'miriam libre', cursive;
+    
+    justify-content: flex-end;
+    
+}
+ul{
+   float: left;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+ul li{
+    list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+    width: 50%;
+    font-size: 30px;
+    display: flex;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'miriam libre', cursive;
+    
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #FF00E4;
+}
+
+.menu i{
+    font-size: 30px;
+    margin-left: 30px;
+    color: #fff;
+}
+
+.menu i:hover{
+    color:#FF00E4;
+}
+.content{
+    width: 1200px;
+    color: #fff;
+  
+   
+   
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'miriam libre', cursive;
+    
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.content h1{
+    
+    font-size: 50px;
+    margin-left: 20px;
+   
+}
+
+.main2{ height: 100vh;
+    width: 100%;
+    background: linear-gradient(to top, rgba(101, 207, 31, 0.5),rgba(96, 34, 177, 0.5)),url(images/a.jpeg);
+    background-position: right;
+    height: 100vh;
+    background-repeat: no-repeat;
+    padding: 30px;
+    
+  }
+
+.main2 h1{
+  font-family: 'miriam libre', cursive;
+    
+    font-size: 60px;
+    margin-left: 100px;
+    
+    
+  }
+  .logo{
+    font-size: 30px;
+    font-family: 'miriam libre', cursive;
+    
+    width: 60%;
+    margin-left: 20px;
+    color: white;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+  }
+  .main2 p{
+    padding-left: 20px;
+    padding-bottom: 80px;
+    font-family: 'miriam libre', cursive;
+    
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    width: 500px;
+    margin-top: 50px;
+  }
+  
+    .content2 .par  {
+    padding-left: 20px;
+    padding-bottom: 50px;
+    font-family: 'miriam libre', cursive;
+    
+    letter-spacing: 1.2px;
+    line-height: 90px;
+  }
+    
+    .font{
+        position: relative;
+        bottom: 0px;
+        display: flex;
+        justify-content: right;
+        align-items:left ;
+        height: 100px;
+        width: 100%;
+        }
+       
+      
+
+.font i:hover{
+    color: #FF00E4;
+}
+ label:hover{
+  color: orange;
+ }
+ 
+
+    .main3{ 
+    width: 100%;
+    background: linear-gradient(rgb(49, 16, 214),rgb(255, 255, 255));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.twko{
+    height: 50px;
+    width: 100%;
+    background-color:;
+}
+
+.main3 h1{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'miriam libre', cursive;
+    
+
+
+}
+
+.boddy{
+    height: 100%;
+    width: 100%;
+    background-color:;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.tsungo{
+    height: 440px;
+    width: 260px;
+    background-color: #3D7F94;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+   }
+ 
+  .btn {
+    padding: 10px;
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .btn:hover {
+    background-color: black;
+    color: white;
+  }
+
+  
+  .tsungo h1{
+    color: white;
+  }
+
+ 
+  .tsungo p{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'miriam libre', cursive;
+    
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    float: left;
+    color: #fff;
+  }
+  .ravangla{
+    height: 440px;
+    width: 260px;
+    background-color: #3D7F94;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .ravangla h1{
+    color: white;
+  }
+  .ravangla p{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'miriam libre', cursive;
+    
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    float: left;
+    color: #fff;
+  }
+  label {
+    margin: 5px;
+    cursor: pointer;
+    width: 5em;
+  }
+  .rabdantse{
+    height: 440px;
+    width: 260px;
+    background-color: #3D7F94;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .rabdantse h1{
+    color: white;
+  }
+  .rabdantse p{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'miriam libre', cursive;
+    
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    float: left;
+    color: #fff;
+  }
+  
+  .gurudongmar{
+    height: 380px;
+    width: 260px;
+    background-color: #3D7F94;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .gurudongmar h1{
+    color: white;
+  }
+.gurudongmar h1{
+  font-family: 'miriam libre', cursive;
+    
+  font-size: 25px;
+  }
+  .gurudongmar p{
+    padding-left: 20px;
+    padding-bottom: 25px; font-family: 'miriam libre', cursive;
+    
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    float: left;
+    color: #fff;
+  }
+  
+  .skywalk{
+    height: 440px;
+    width: 260px;
+    background-color: #3D7F94;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .skywalk h1{
+    color: white;
+  }
+  .skywalk  p{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'miriam libre', cursive;
+    
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    float: left;
+    color: #fff;
+  }
+.one{
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'miriam libre', cursive;
+    
+  line-height: 30px;
+  font-size: 30px;
+  background-color: #3D7F94;
+}
+.tsungobody{
+  background-color: #3D7F94;
+  
+}
+.one h1{
+  height: 250px ;
+  width: 100%;
+  background-color:;
+  font-size: 30px;
+  color: azure;
+  
+}
+.one p{
+  color: azure;
+}
+.rabdantsebody{
+  background-color: #3D7F94;
+  
+}
